@@ -54,6 +54,7 @@ section{
     background-image: url("Backgrounds/exp-bg.png");
     background-repeat: no-repeat;
     background-position: left;
+    background-size: 93px;
     
     
 }
@@ -61,10 +62,16 @@ section{
     box-shadow: 10px 10px 40px gray;
     border-radius: 5px;
     height: 80%;
+
     
 }
 #full-stack{
-    border-left: 7px solid blue;
-
+    border-left: 7px solid;
+    border-image: linear-gradient(lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, skyblue);
     border-image-slice: 1;
 }
