@@ -62,16 +62,17 @@ section{
     box-shadow: 10px 10px 40px gray;
     border-radius: 5px;
     height: 80%;
+    background-color: white;
 
     
 }
 #full-stack{
     border-left: 7px solid;
-    border-image: linear-gradient(lightsalmon, tomato);
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
     border-image-slice: 1;
 }
 #baby-web{
     border-left: 7px solid;
-    border-image: linear-gradient(blue, skyblue);
+    border-image: linear-gradient(180deg, blue, skyblue);
     border-image-slice: 1;
 }
